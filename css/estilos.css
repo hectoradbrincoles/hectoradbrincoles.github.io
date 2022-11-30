@@ -43,7 +43,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(180deg, #0705058c 0%, #0000008c 100%), url('../img/hm2.jpg');
+    background-image: linear-gradient(180deg, #0705058c 0%, #0000008c 100%), url('/img/hm2.jpg');
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 84% 100%, 13% 100%);
     z-index: -1;
@@ -60,7 +60,7 @@ body {
     color: #fff;
 }
 
-.hm::before { /* Para darle formato a la portada */
+.hm::before { /* Para darle formato a la portada de ofertas */
     content: "";
     position: absolute;
     top: 0;
@@ -98,9 +98,10 @@ body {
 .nav__items {
     list-style: none;
 }
- 
+
+ /* Para el color del inicio*/
 .nav__links {
-    color: rgb(71, 213, 248);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -109,6 +110,7 @@ body {
     cursor: pointer;
     display: none;
 }
+
 
 .nav__img {
     display: block;
@@ -198,7 +200,7 @@ body {
 .knowledge {
     background-color: #e5e5f7;
     background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
-    background-size: 20px 20px;
+    background-size: 12px 12px;
     background-position: 0 0, 10px 10px;
     overflow: hidden;
 }
@@ -220,7 +222,7 @@ body {
 }
 
 .knowledge__img{
-    width: 100%;
+    width: 50%;
     display: block;
 }
 
